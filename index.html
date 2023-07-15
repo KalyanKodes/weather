@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+
+
+        <div class="searchContainer">
+            <input type="text" spellcheck="false" placeholder="Enter city name" maxlength="15" title="city name"  minlength="3" value="Delhi" id="city">
+            <img src="./images/search.png" class="search">
+        </div>
+
+        <img src="./images/drizzle.png" id="skyStatus">
+
+
+
+        <div class="cityTemperature">
+            <p id="temperature">22&degC</p>
+            <p id="cityName">Delhi</p>
+        </div>
+
+        <div class="humiditySpeed">
+            <div class="humidity">
+                <img src="./images/humidity.png" class="humidityImage">
+                <div class="huimdityValues">
+                    <p class="humidityPercentage">50%</p>
+                    <p class="humidityStatus">Humidity</p>
+                </div>
+            </div>
+            <div class="windSpeed">
+                <img src="./images/wind.png" class="windSpeedImage">
+                <div class="windSpeedValues">
+                    <p class="windSpeedPerHour">50km/hr</p>
+                    <p class="windSpeedStatus">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
